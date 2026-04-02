@@ -1,0 +1,68 @@
+{
+  "config": {
+    "abort": {
+      "already_configured": "This device is already configured.",
+      "no_emitters": "No infrared transmitters found. Set up an IR transmitter integration (e.g. ESPHome, Broadlink) first."
+    },
+    "step": {
+      "user": {
+        "data": {
+          "device_type": "Device type",
+          "infrared_entity_id": "Infrared transmitter"
+        },
+        "description": "Select the Philips device type and the infrared transmitter to use.",
+        "title": "Set up Philips Infrared"
+      }
+    }
+  },
+  "selector": {
+    "device_type": {
+      "options": {
+        "tv": "TV"
+      }
+    }
+  },
+  "entity": {
+    "button": {
+      "standby": { "name": "Power" },
+      "nav_up": { "name": "Up" },
+      "nav_down": { "name": "Down" },
+      "nav_left": { "name": "Left" },
+      "nav_right": { "name": "Right" },
+      "ok": { "name": "OK" },
+      "home": { "name": "Home" },
+      "back": { "name": "Back" },
+      "options": { "name": "Options" },
+      "exit": { "name": "Exit" },
+      "info": { "name": "Info" },
+      "guide": { "name": "Guide" },
+      "source": { "name": "Source" },
+      "num_0": { "name": "0" },
+      "num_1": { "name": "1" },
+      "num_2": { "name": "2" },
+      "num_3": { "name": "3" },
+      "num_4": { "name": "4" },
+      "num_5": { "name": "5" },
+      "num_6": { "name": "6" },
+      "num_7": { "name": "7" },
+      "num_8": { "name": "8" },
+      "num_9": { "name": "9" },
+      "red": { "name": "Red" },
+      "green": { "name": "Green" },
+      "yellow": { "name": "Yellow" },
+      "blue": { "name": "Blue" },
+      "teletext": { "name": "Teletext" },
+      "subtitle": { "name": "Subtitle" },
+      "play": { "name": "Play" },
+      "pause": { "name": "Pause" },
+      "stop": { "name": "Stop" },
+      "fast_forward": { "name": "Fast forward" },
+      "rewind": { "name": "Rewind" },
+      "record": { "name": "Record" },
+      "ambilight": { "name": "Ambilight" },
+      "channel_up": { "name": "Channel up" },
+      "channel_down": { "name": "Channel down" },
+      "previous_channel": { "name": "Previous channel" }
+    }
+  }
+}

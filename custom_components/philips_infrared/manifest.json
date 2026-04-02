@@ -1,0 +1,12 @@
+{
+  "domain": "philips_infrared",
+  "name": "Philips Infrared",
+  "codeowners": ["@Michirieger"],
+  "config_flow": true,
+  "dependencies": ["infrared"],
+  "documentation": "https://github.com/Michirieger/philips-infrared",
+  "integration_type": "device",
+  "iot_class": "assumed_state",
+  "requirements": ["infrared-protocols==1.1.0"],
+  "version": "0.1.0"
+}
