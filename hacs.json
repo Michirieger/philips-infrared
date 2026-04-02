@@ -1,0 +1,12 @@
+{
+  "name": "Philips Infrared",
+  "codeowners": ["@Michirieger"],
+  "content_in_root": false,
+  "domains": ["philips_infrared"],
+  "documentation": "https://github.com/Michirieger/philips-infrared",
+  "homeassistant": "2026.4.0",
+  "iot_class": "assumed_state",
+  "issue_tracker": "https://github.com/Michirieger/philips-infrared/issues",
+  "requirements": ["infrared-protocols==1.1.0"],
+  "version": "0.1.0"
+}
